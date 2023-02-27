@@ -1,0 +1,35 @@
+.header {
+    background:grey; 
+    background-repeat: no-repeat; 
+    min-height: 100vh; 
+    min-width: 100vh; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    padding: 180px 0 40px;
+      
+}
+
+.title { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    width: 100%; 
+    height: 50px; 
+    font:sans-serif ; 
+    border-bottom: solid 5px black; 
+    margin-bottom: 20px; 
+}
+
+button{ 
+    width: 300px; 
+    height: 40px; 
+    margin-top: 10px;
+    font:sans-serif; 
+    background:#000; 
+    color: white; 
+    outline: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
